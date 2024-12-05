@@ -10,7 +10,9 @@ function TaskList({tasks}: TaskListProps) {
    <>
 
       {tasks.map((task) =>(
+        <div className="col-md-4">
         <TaskCard task={task}/>
+        </div>
       ))}
     
    </>
